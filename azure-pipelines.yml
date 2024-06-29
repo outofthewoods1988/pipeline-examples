@@ -20,8 +20,8 @@ steps:
   displayName: 'Run a multi-line script'
 - task: ArchiveFiles@2
   inputs:
-    rootFolderOrFile: '$(Build.BinariesDirectory)'
+    rootFolderOrFile: '/home/ricky/'
     includeRootFolder: true
     archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    archiveFile: '/home/ricky/$(Build.BuildId).zip'
     replaceExistingArchive: true
