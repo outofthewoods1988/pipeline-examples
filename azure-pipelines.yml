@@ -20,6 +20,7 @@ steps:
     echo '$(System.Debug)'
     echo '$(Build.BinariesDirectory)'
     echo '$(Build.ArtifactStagingDirectory)'
+    echo '$(Build.BuildId)'
   displayName: 'Run a multi-line script'
 - task: ArchiveFiles@2
   inputs:
